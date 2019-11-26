@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-26T17:41:00Z" name="Suite" finished-at="2019-11-26T17:41:30Z" duration-ms="30361">
+    <groups>
+    </groups>
+    <test started-at="2019-11-26T17:41:00Z" name="fire Test" finished-at="2019-11-26T17:41:25Z" duration-ms="24917">
+      <class name="com.newtour.testcase.MT_005">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.newtour.testcase.MT_005@65b3f4a4]" started-at="2019-11-26T17:41:00Z" name="setUp" finished-at="2019-11-26T17:41:08Z" duration-ms="7832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newtour.testcase.MT_005@65b3f4a4]" started-at="2019-11-26T17:41:08Z" name="login" finished-at="2019-11-26T17:41:14Z" duration-ms="6421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="FindFlight()[pri:1, instance:com.newtour.testcase.MT_005@65b3f4a4]" started-at="2019-11-26T17:41:14Z" name="FindFlight" finished-at="2019-11-26T17:41:22Z" duration-ms="7294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlight -->
+        <test-method signature="cruises()[pri:2, instance:com.newtour.testcase.MT_005@65b3f4a4]" started-at="2019-11-26T17:41:22Z" name="cruises" finished-at="2019-11-26T17:41:22Z" duration-ms="691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruises -->
+        <test-method signature="hotelReservation()[pri:3, instance:com.newtour.testcase.MT_005@65b3f4a4]" started-at="2019-11-26T17:41:22Z" name="hotelReservation" finished-at="2019-11-26T17:41:23Z" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelReservation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newtour.testcase.MT_005@65b3f4a4]" started-at="2019-11-26T17:41:23Z" name="tearDown" finished-at="2019-11-26T17:41:25Z" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.testcase.MT_005 -->
+    </test> <!-- fire Test -->
+    <test started-at="2019-11-26T17:41:00Z" name="Chrome Test" finished-at="2019-11-26T17:41:30Z" duration-ms="30361">
+      <class name="com.newtour.testcase.MT_005">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.newtour.testcase.MT_005@7b02881e]" started-at="2019-11-26T17:41:00Z" name="setUp" finished-at="2019-11-26T17:41:08Z" duration-ms="7586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.newtour.testcase.MT_005@7b02881e]" started-at="2019-11-26T17:41:08Z" name="login" finished-at="2019-11-26T17:41:18Z" duration-ms="10787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="FindFlight()[pri:1, instance:com.newtour.testcase.MT_005@7b02881e]" started-at="2019-11-26T17:41:18Z" name="FindFlight" finished-at="2019-11-26T17:41:28Z" duration-ms="9384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FindFlight -->
+        <test-method signature="cruises()[pri:2, instance:com.newtour.testcase.MT_005@7b02881e]" started-at="2019-11-26T17:41:28Z" name="cruises" finished-at="2019-11-26T17:41:29Z" duration-ms="968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cruises -->
+        <test-method signature="hotelReservation()[pri:3, instance:com.newtour.testcase.MT_005@7b02881e]" started-at="2019-11-26T17:41:29Z" name="hotelReservation" finished-at="2019-11-26T17:41:29Z" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelReservation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.newtour.testcase.MT_005@7b02881e]" started-at="2019-11-26T17:41:29Z" name="tearDown" finished-at="2019-11-26T17:41:30Z" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.newtour.testcase.MT_005 -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.newtours.utils.Report"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Test1(failed)(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.newtours.tescases.Testcase_001">
+        <methods>
+          <include name="test_Login"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.newtours.tescases.Testcase_001 -->
+    </classes>
+  </test> <!-- Test1(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

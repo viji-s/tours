@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="fire Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.newtour.testcase.MT_005">
+        <methods>
+          <include name="login"/>
+          <include name="FindFlight"/>
+          <include name="cruises"/>
+          <include name="setUp"/>
+          <include name="hotelReservation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.newtour.testcase.MT_005 -->
+    </classes>
+  </test> <!-- fire Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

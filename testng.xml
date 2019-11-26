@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<listeners>
+		<listener class-name="com.newtours.utils.Report"/>
+	</listeners>
+
+	<test name="Test">
+		<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.newtours.tescases.Testcase_001"/>
+		</classes>
+	</test>
+
+	<test name="Test1">
+		<parameter name="browser" value="firefox"/>
+		<classes>
+			<class name="com.newtours.tescases.Testcase_001"/>
+		</classes>
+	</test>
+
+</suite> 
+"testng.xml"
